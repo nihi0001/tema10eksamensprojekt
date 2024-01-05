@@ -1,0 +1,80 @@
+<h1>Det siger kunderne om Vahl Wood</h1>
+<div class="grid">
+    <section class="col1">
+        <article>
+            <h2>Morten, Helsinge</h2>
+            <p>"Utrolig dygtig snedker! Leverede en fantastisk specialdesignet reol til vores stue. Præcisionen og opmærksomheden på detaljer er imponerende."</p>
+        </article>
+        <article>
+            <h2>Birgitte, Mårum</h2>
+            <p>"Professionel og tilpasningsdygtig snedker. Byggede skræddersyede indbyggede hylder til vores kontor, der ikke kun er praktiske, men også æstetisk tiltalende."</p>
+        </article>
+
+    </section>
+    <section class="col2">
+        <article>
+            <h2>Daniel, Fredensborg</h2>
+            <p>"Enestående håndværk! Christian fra Vahl Wood skabte et smukt egetræsbord til vores spisestue. Kvaliteten og finishen er uden sidestykke. Vi er begejstrede!"</p>
+        </article>
+        <article>
+            <h2>Cristina & Karsten, Nødebo</h2>
+            <p>"En fornøjelse at arbejde med! Christian forstod vores vision og skabte en unik trævæg til vores soveværelse. Resultatet oversteg vores forventninger. Stærkt anbefalet!"</p>
+        </article>
+    </section>
+</div>
+
+<style>
+      .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 25px;
+    }
+
+    h1{
+        font-weight: 400; 
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 2rem;
+        padding: 25px;
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+
+    h2{
+        font-weight: 400;
+        font-size: 15px;
+        /*letter-spacing: 2px;*/
+        margin-bottom: 1rem;
+    }
+
+    p{
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    article{
+        padding: 15px;
+    }
+
+    @media screen and (min-width: 600px) {
+        h1{
+            margin-top: 4rem;
+            font-size:27px;
+            margin-bottom: 1rem;
+
+        }
+        
+        h2{
+            font-size:20px;
+
+        }
+
+        p{
+            font-size:15px;
+        }
+
+        article{
+        padding: 25px;
+    }
+    }
+</style>
