@@ -3,33 +3,63 @@
     <source src="/images/forside_video.mp4" type="video/mp4" />
   </video>
 </div>  -->
-
 <div class="top">
-<h1>TRÆKUNST MED SJÆL, FORMET EFTER DINE DRØMME</h1>
-<h2>Vi står parat til at skabe unikke håndværksløsninger til dig. Kontakt os nu for at modtage et tilbud skræddersyet til dine behov</h2>
+  <h1>TRÆKUNST MED SJÆL, FORMET EFTER DINE DRØMME</h1>
+  <h2>
+    Vahl wood står parat til at skabe unikke håndværksløsninger til dig. Kontakt os nu
+    for at modtage et tilbud skræddersyet til dine behov
+  </h2>
+
+  <section class="knap-container">
+      <a class="knap1" href="/contact">KONTAKT</a>
+      <a class="knap2" href="/shop">KATALOG</a>
+  </section>
 </div>
 
 <style>
-.top{
-  padding: 25px;
-  /*background-image: url(/images/portrættræbaggrund.webp);*/
-  /*background-size: cover;*/
-  text-align: center;
-}
+  .top {
+    padding: 25px;
+    background-image:linear-gradient(rgba(186, 186, 186, 0.5), rgba(180, 180, 180, 0.5)), url(/images/portrættræbaggrund.webp);
+    background-size: cover;
+    text-align: center;
+  }
 
-h1{
-  margin-bottom: 2rem;
-  font-weight: 500;
-  margin-top: 2rem;
-}
+  h1 {
+    margin-bottom: 2rem;
+    font-weight: 400;
+    margin-top: 3rem;
+    letter-spacing: 3px;
+    font-size: 27px;
+    text-align: left;
+  }
 
-h2{
-  font-size: large;
-  margin-bottom: 5rem;
-}
+  h2 {
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 3rem;
+    text-align: left;
 
+  }
 
- /* video {
+  .knap-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .knap1, .knap2 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 15rem;
+    text-align: center;
+    margin: 0 2rem;
+  }
+
+  img{
+    width: 300px;
+  }
+
+  /* video {
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -41,13 +71,31 @@ h2{
     max-width: 100%;
   }*/
 
+  @media screen and (min-width: 700px) {
+
+    .top{
+      padding: 60px;
+    }
+    h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 25px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  }
+
   @media screen and (min-width: 1000px) {
     /*.video-container {
       max-width: none;
     }*/
 
-    h1{
-      /*max-width: 40%;*/
+    .top{
+      padding: 100px;
 
     }
   }
