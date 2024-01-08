@@ -4,26 +4,36 @@
     <section class="col1">
         <article>
             <h2>
-              "Professionel og tilpasningsdygtig snedker. Byggede skræddersyede
-              indbyggede hylder til vores kontor, der ikke kun er praktiske, men
-              også æstetisk tiltalende."
-            </h2>
+              Professionel og tilpasningsdygtig snedker</h2>
+              <p>Byggede skræddersyede
+                indbyggede hylder til vores kontor, der ikke kun er praktiske, men
+                også æstetisk tiltalende.</p>
             <h3>Birgitte, Mårum</h3>
     
           </article>
 
       <article>
         <h2>
-          "Utrolig dygtig snedker! Leverede en fantastisk specialdesignet reol
-          til vores stue. Præcisionen og opmærksomheden på detaljer er
-          imponerende."
-        </h2>
+          Utrolig dygtig snedker! </h2>
+          <p>Leverede en fantastisk specialdesignet reol
+            til vores stue. Præcisionen og opmærksomheden på detaljer er
+            imponerende.</p>
         <h3>Morten, Helsinge</h3>
+      </article>
+
+      <article>
+        <h2>
+          Enestående håndværk!
+        </h2>
+        <p>Christian fra Vahl Wood skabte et smukt
+          egetræsbord til vores spisestue. Kvaliteten og finishen er uden
+          sidestykke. Vi er begejstrede!</p>
+        <h3>Daniel, Fredensborg</h3>
 
       </article>
       
     </section>
-    <section class="col2">
+    <!--<section class="col2">
       <article>
         <h2>
           "Enestående håndværk! Christian fra Vahl Wood skabte et smukt
@@ -42,17 +52,18 @@
         <h3>Cristina & Karsten, Nødebo</h3>
 
       </article>
-    </section>
+    </section>  -->
   </div>
 </div>
 
 <style>
 
 
-  .grid {
+  .col1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     /*padding: 25px;*/
+
   }
 
   .box {
@@ -76,17 +87,25 @@
   }
 
   h2 {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     /*letter-spacing: 2px;*/
-    margin-bottom: 3rem;
-    font-style: italic;
-
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
   }
 
+  p{
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+
+
+  }
   h3 {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 1rem;
     /*letter-spacing: 2px;*/
   }
 
@@ -114,5 +133,9 @@
     article {
       padding: 25px;
     }
+
+    h3 {
+    margin-top: 2rem;
+  }
   }
 </style>
