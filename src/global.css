@@ -18,7 +18,6 @@ h1, h2, h3, p, nav, footer, label, div, a{
     text-decoration: none;
 }
 
-
  /* større skærme */
  @media screen and (min-width: 600px) {
 
