@@ -6,20 +6,23 @@
 <div class="top">
   <h1>TRÆKUNST MED SJÆL, FORMET EFTER DINE DRØMME</h1>
   <h2>
-    Vahl wood står parat til at skabe unikke håndværksløsninger til dig. Kontakt os nu
-    for at modtage et tilbud skræddersyet til dine behov
+    Vahl wood står parat til at skabe unikke håndværksløsninger til dig. Kontakt
+    os nu for at modtage et tilbud skræddersyet til dine behov.
   </h2>
+  <h2></h2>
 
   <section class="knap-container">
-      <a class="knap1" href="/contact">KONTAKT</a>
-      <a class="knap2" href="/shop">KATALOG</a>
+    <a class="knap1" href="/contact">KONTAKT</a>
+    <a class="knap2" href="/shop">KATALOG</a>
   </section>
 </div>
 
 <style>
   .top {
-    padding: 25px;
-    background-image:linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0.5)), url(/images/portrættræbaggrund.webp);
+    padding: 20px;
+    /* background-image:linear-gradient(rgba(170, 170, 170, 0.5), rgba(170, 170, 170, 0.5)), url(/images/portrættræbaggrund.webp);*/
+    /* background-image:linear-gradient(rgba(170, 170, 170, 0.132), rgba(202, 201, 201, 0.3)),  url(/images/portrætdør.webp);*/
+    background-image: url(/images/kvadrat8.webp);
     background-size: cover;
     text-align: center;
   }
@@ -27,40 +30,42 @@
   h1 {
     margin-bottom: 2rem;
     font-weight: 400;
-    margin-top: 3rem;
+    margin-top: 5rem;
     letter-spacing: 3px;
-    font-size: 27px;
-    text-align: left;
+    font-size: 21px;
+    text-align: center;
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 200;
     margin-bottom: 3rem;
-    text-align: left;
-
+    text-align: center;
   }
 
-  .knap-container{
+  .knap-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .knap1, .knap2 {
+  .knap1,
+  .knap2 {
     background-color: black;
     color: white;
     padding: 1rem;
     width: 15rem;
     text-align: center;
-    margin: 0 2rem;
+    margin: 0 0 2rem;
   }
 
-  .knap1:hover, .knap2:hover {
-      opacity: 70%;
-    }
-  img{
-    width: 300px;
+  .knap1:hover,
+  .knap2:hover {
+    opacity: 70%;
   }
+  /*img {
+    width: 300px;
+  }*/
 
   /* video {
     object-fit: cover;
@@ -75,24 +80,29 @@
   }*/
 
   @media screen and (min-width: 700px) {
-
-    .top{
+    .top {
       padding: 60px;
     }
     h1 {
-    font-size: 35px;
-    text-align: center;
-    margin-top: 6rem;
+      font-size: 23px;
+      margin-top: 3rem;
+    }
+    h2 {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+      font-weight: 300;
+    }
 
-  
+    .knap-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+
   }
-  h2 {
-    font-size: 25px;
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 3rem;
-  }
+
   }
 
   @media screen and (min-width: 1000px) {
@@ -100,9 +110,18 @@
       max-width: none;
     }*/
 
-    .top{
-      padding: 100px;
+    .top {
+      padding: 85px;
+    }
 
+    h1{
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 20px;
+      max-width: 700px;
+
+   
     }
   }
 </style>
